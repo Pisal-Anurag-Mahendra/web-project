@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <style>
+        body {
+            background-color: black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .text {
+            text-align: center;
+            justify-content: center;
+            align-items: center;
+            font-size: 50px;
+            font-weight: bold;
+            color:lemonchiffon;
+            text-transform: uppercase;
+            letter-spacing: 4px;
+            
+        }
+
+        .glow-container {
+            width: 500px;
+            height: 500px;
+            background-color:orangered;
+            border-radius: 100%;
+            box-shadow: 20px 20px 20px 10px rgba(255, 0.5, 255, 0.5);
+            animation: glow 2s infinite alternate;
+        }
+
+        @keyframes glow {
+            0% {
+                box-shadow: 20px 20px 20px 10px rgba(255, 0.5, 255, 0.5);
+            }
+            100% {
+                box-shadow: 40px 40px 30px 20px rgba(255,5, 256, 7);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="glow-container">
+    <div class="text">Oops..................
+    Page Under Development🚧</div>
+    </div>
+</body>
+</html>
